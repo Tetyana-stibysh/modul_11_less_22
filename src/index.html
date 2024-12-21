@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <a href="./footer.html">FOOTER</a>
+    <div id="app">
+      <div class="wrapper">
+          <h1>Справи</h1>
+          <br/>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+          <form class="todo-form">
+            <input type="text" name="todo" placeholder="Додати справу">
+          </form>
 
-    <load src="./partials/footer.html" />
-
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

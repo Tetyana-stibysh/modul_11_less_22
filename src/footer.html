@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script type="module" src="./footer.js"></script>
+  </head>
+  <body>
+    <h2>Let’s work together</h2>
+    <form class="footer-form">
+      <input
+        type="email"
+        name="email"
+        placeholder="clients@gmail.com"
+        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+      />
+      <p class="check-succ visually-hidden">Succes!</p>
+      <p class="check-inv visually-hidden">Invalid email, try again</p>
+      <input type="text" name="text" placeholder="comments" />
+
+      <button type="submit">Login</button>
+    </form>
+    <div class="modal visually-hidden"><h2 class="modal-title"></h2></div>
+  </body>
+</html>
